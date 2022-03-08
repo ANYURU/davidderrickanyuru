@@ -1,8 +1,9 @@
 import './App.css';
+import MyRouter from './routes/MyRouter';
 
 function App() {
   return (
-    <>bingo</>
+    <MyRouter />
   );
 }
 
