@@ -6,8 +6,8 @@ function NavBar() {
     <nav className='nav-bar'>
       <HashLink to={'/'}>Home</HashLink>
       <HashLink to={'/page#mywork'}>Mywork</HashLink>
-      <HashLink to={'/page#contact'}>Contact</HashLink>
       <HashLink to={'/page#articles'}>Articles</HashLink>
+      <HashLink to={'/page#contact'}>Contact</HashLink>
     </nav>
   )
 }

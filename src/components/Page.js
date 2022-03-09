@@ -8,7 +8,9 @@ import NavBar from './NavBar'
 function Page() {
   return (
     <div className="container">
-        <NavBar />
+        <div className='nav'>
+            <NavBar />
+        </div>
         <div className='content'>
             <section id='header' style={{height:'400px', backgroundColor:'aliceblue'}}>
                 <Header />
