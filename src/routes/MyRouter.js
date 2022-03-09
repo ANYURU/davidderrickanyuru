@@ -4,26 +4,14 @@ import {
   Route,
   Routes
 } from 'react-router-dom'
-
-import Contact from '../components/Contact'
-import Home from '../components/Home'
-import MyWork from '../components/MyWork'
-import Articles from '../components/Articles'
-import Header from '../components/Header'
-
-
+import Page from '../components/Page'
 
 function MyRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='home' element={<Home />}>
-          <Route path='home' element={<Header />}/>
-          <Route path='contact' element={<Contact />}/>
-          <Route path='mywork' element={<MyWork />}/>
-          <Route path='articles' element={<Articles />}/>
-        </Route>
+        <Route path='/' element={<Page />}/>
+        <Route path='page' element={<Page />}/> 
       </Routes>
     </BrowserRouter>
   )
